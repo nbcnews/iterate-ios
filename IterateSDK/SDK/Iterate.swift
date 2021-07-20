@@ -46,12 +46,7 @@ public final class Iterate {
     
     // Get the bundle by identifier or by url (needed when packaging in cocoapods)
     var bundle: Bundle? {
-        let containerBundle = Bundle(for: ContainerWindowDelegate.self)
-        if let bundleUrl = containerBundle.url(forResource: "Iterate", withExtension: "bundle") {
-            return Bundle(url: bundleUrl)
-        } else {
-            return Bundle(identifier: "com.iteratehq.Iterate")
-        }
+        Bundle.module
     }
     
     // MARK: API Keys

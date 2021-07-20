@@ -1,3 +1,6 @@
+# About this fork
+This fork turns the Iterate SDK into a Swift package for easier packaging in downstream apps
+
 ![Iterate for iOS](https://github.com/iteratehq/iterate-ios/blob/master/Assets/static-banner.png?raw=true)
 
 # Iterate for iOS
